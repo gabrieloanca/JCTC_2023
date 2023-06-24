@@ -1,0 +1,17 @@
+;  atom1       atom2       atom3       atom4       func       phi             k
+   nad_C3      nad_N15     nad_C1      nad_H2         2     180.0      4.602395
+   nad_H4      nad_C5      nad_C3      nad_C1         2     180.0      4.602395
+   nad_H6      nad_C7      nad_C5      nad_C3         2     180.0      4.602395
+   nad_C8      nad_C13     nad_C7      nad_C5         2     180.0     16.735982
+   nad_C7      nad_N10     nad_C8      nad_O9         2     180.0     43.931951
+   nad_H12     nad_C8      nad_N10     nad_H11        2     180.0      4.183995
+   nad_H14     nad_N15     nad_C13     nad_C7         2     180.0      4.602395
+   nad_C13     nad_C16     nad_N15     nad_C1         2     180.0     16.735982
+   nad_C58     nad_C70     nad_N57     nad_C55        2     180.0     16.735982
+   nad_H59     nad_N60     nad_C58     nad_N57        2     180.0      4.602395
+   nad_C62     nad_C70     nad_C61     nad_N60        2     180.0     16.735982
+   nad_N63     nad_N66     nad_C62     nad_C61        2     180.0     16.735982
+   nad_H65     nad_C62     nad_N63     nad_H64        2     180.0      4.183995
+   nad_H68     nad_N69     nad_C67     nad_N66        2     180.0      4.602395
+   nad_C61     nad_N69     nad_C70     nad_N57        2     180.0     16.735982
+

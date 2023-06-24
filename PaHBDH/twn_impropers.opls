@@ -1,0 +1,8 @@
+;  atom1       atom2       atom3       atom4       func       phi             k
+   twn_C6      twn_C13     twn_C5      twn_C2         2     180.0     16.735982
+   twn_H7      twn_C8      twn_C6      twn_C5         2     180.0      4.602395
+   twn_H9      twn_C10     twn_C8      twn_C6         2     180.0      4.602395
+   twn_O11     twn_C15     twn_C10     twn_C8         2     180.0     16.735982
+   twn_H14     twn_C15     twn_C13     twn_C5         2     180.0      4.602395
+   twn_C13     twn_H16     twn_C15     twn_C10        2     180.0      4.602395
+

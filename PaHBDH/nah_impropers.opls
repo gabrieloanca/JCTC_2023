@@ -1,0 +1,16 @@
+;  atom1       atom2       atom3       atom4       func       phi             k
+   nah_H2      nah_N16     nah_C1      nah_C3         2     180.0      4.602395
+   nah_H4      nah_C5      nah_C3      nah_C1         2     180.0      4.602395
+   nah_C5      nah_C9      nah_C8      nah_C14        2     180.0      4.602395
+   nah_C8      nah_N11     nah_C9      nah_O10        2     180.0     43.931951
+   nah_H13     nah_C9      nah_N11     nah_H12        2     180.0      4.183995
+   nah_H15     nah_N16     nah_C14     nah_C8         2     180.0      4.602395
+   nah_C17     nah_C1      nah_N16     nah_C14        2     180.0      4.183995
+   nah_C59     nah_C71     nah_N58     nah_C56        2     180.0     16.735982
+   nah_H60     nah_N61     nah_C59     nah_N58        2     180.0      4.602395
+   nah_C63     nah_C71     nah_C62     nah_N61        2     180.0     16.735982
+   nah_N64     nah_N67     nah_C63     nah_C62        2     180.0     16.735982
+   nah_H66     nah_C63     nah_N64     nah_H65        2     180.0      4.183995
+   nah_H69     nah_N70     nah_C68     nah_N67        2     180.0      4.602395
+   nah_C62     nah_N70     nah_C71     nah_N58        2     180.0     16.735982
+

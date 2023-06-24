@@ -1,0 +1,117 @@
+; Dec 16 2022
+;
+; Last column: '1' is an EVB atom (in region 1); '2' is a non-EVB atom
+; (in region 2). We need to declare the  non-EVB atoms involved in torsion
+; interactions as well as in LJ14 and QQ14 with region 1 atoms in only
+; one of the states, due to forming and/or break bonds.
+
+[atoms]
+; #pdb    at(A)        ch(A)       at(B)       ch(B)    dummy  1/2
+; TYR 160
+2336     opls_224B     0.140      opls_224B    0.140             2  ; CA
+2338     twn_C2     0.104314      twm_C2    0.137870   twn_d2    1  ; CB 
+2339     twn_H3     0.001268      twm_H3   -0.015654   twn_d3    1  ; HB1
+2340     twn_H4     0.001268      twm_H4   -0.015654   twn_d4    1  ; HB2
+2341     twn_C5    -0.078705      twm_C5   -0.203621   twn_d5    1  ; CG 
+2342     twn_C6    -0.132965      twm_C6   -0.089370   twn_d6    1  ; CD1
+2343     twn_H7     0.176128      twm_H7    0.158229   twn_d7    1  ; HD1
+2344     twn_C13   -0.132965      twm_C12  -0.089370   twn_d13   1  ; CD2
+2345     twn_H14    0.176128      twm_H13   0.158229   twn_d14   1  ; HD2
+2346     twn_C8    -0.414256      twm_C8   -0.545642   twn_d8    1  ; CE1
+2347     twn_H9     0.214901      twm_H9    0.170448   twn_d9    1  ; HE1
+2348     twn_C15   -0.414256      twm_C14  -0.545642   twn_d15   1  ; CE2
+2349     twn_H16    0.214901      twm_H15   0.170448   twn_d16   1  ; HE2
+2350     twn_C10    0.515794      twm_C10   0.710039   twn_d10   1  ; CZ 
+2351     twn_O11   -0.708780      twm_O11  -1.000310   twn_d11   1  ; OH   ;; !!! 
+2352     twn_H12    0.477225      hov_H17   0.486870   twn_d12   1  ; HH   ;; !!!
+; NAH 266
+ 3967    nah_C1    -0.274708      nad_C1    0.015414   nah_d1    1  ; C1 
+ 3968    nah_H2     0.222078      nad_H2    0.215625   nah_d2    1  ; H1 
+ 3969    nah_C3    -0.237512      nad_C3   -0.207470   nah_d3    1  ; C2 
+ 3970    nah_H4     0.146185      nad_H4    0.220808   nah_d4    1  ; H2 
+ 3971    nah_C5     0.264104      nad_C5    0.052289   nah_d5    1  ; C3   ;; !!!
+ 3972    nah_H6    -0.015344      hov_H16  -0.018470   nah_d6    1  ; H3   ;; !!!
+ 3973    nah_H7    -0.015344      nad_H6    0.190475   nah_d7    1  ; H4 
+ 3974    nah_C8    -0.323854      nad_C7   -0.144760   nah_d8    1  ; C4 
+ 3975    nah_C9     0.977668      nad_C8    0.949456   nah_d9    1  ; C5 
+ 3976    nah_O10   -0.784769      nad_O9   -0.725673   nah_d10   1  ; O1 
+ 3977    nah_N11   -1.110047      nad_N10  -0.990441   nah_d11   1  ; N1 
+ 3978    nah_H12    0.491789      nad_H11   0.487375   nah_d12   1  ; H5 
+ 3979    nah_H13    0.491789      nad_H12   0.487375   nah_d13   1  ; H6 
+ 3980    nah_C14   -0.027435      nad_C13  -0.028633   nah_d14   1  ; C6 
+ 3981    nah_H15    0.194457      nad_H14   0.279830   nah_d15   1  ; H7 
+ 3982    nah_N16    0.000943      nad_N15   0.198330   nah_d16   1  ; N2 
+ 3983    nah_C17    0.170524      nad_C16   0.170524   nah_d17   2  ; C7 
+ 3984    nah_H18    0.129066      nad_H17   0.129066   nah_d18   2  ; H8 
+ 3985    nah_C19    0.064753      nad_C18   0.064753   nah_d19   2  ; C8 
+ 3995    nah_O29   -0.427468      nad_O28  -0.427468   nah_d29   2  ; O4 
+; 3OH 267
+ 4038    3ov_O1    -0.904917      hov_O1   -0.907567   3ov_d1    1  ; O1
+ 4039    3ov_C2     0.956537      hov_C2    0.977222   3ov_d2    1  ; C1
+ 4040    3ov_O3    -0.904917      hov_O3   -0.907567   3ov_d3    1  ; O2
+ 4041    3ov_C4    -0.330350      hov_C4   -0.420209   3ov_d4    1  ; C2
+ 4042    3ov_C5     0.641585      hov_C5    0.507717   3ov_d5    1  ; C3  ;; !!!
+ 4043    3ov_O6    -0.687840      hov_O6   -0.859251   3ov_d6    1  ; O3  ;; !!!
+ 4044    3ov_C7     0.006704      hov_C7    0.012929   3ov_d7    1  ; C4
+ 4045    3ov_H8     0.095219      hov_H8    0.091895   3ov_d8    1  ; H1
+ 4046    3ov_H9     0.095219      hov_H9    0.091895   3ov_d9    1  ; H2
+ 4047    3ov_H10    0.021398      hov_H10  -0.007508   3ov_d10   1  ; H3
+ 4048    3ov_H11    0.021398      hov_H11  -0.007508   3ov_d11   1  ; H4
+ 4049    3ov_C12   -0.142341      hov_C12  -0.106123   3ov_d12   1  ; C5
+ 4050    3ov_H13    0.044102      hov_H13   0.021892   3ov_d13   1  ; H5
+ 4051    3ov_H14    0.044102      hov_H14   0.021892   3ov_d14   1  ; H6
+ 4052    3ov_H15    0.044102      hov_H15   0.021892   3ov_d15   1  ; H7
+
+; The A_ij = A_i * A_j; beta_ij = sqrt(beta_i * beta_j)
+[soft-core]
+;     i        A    beta
+;   3969   380.74    25.0
+;   3971   380.74    25.0
+;   3972    20.92    25.0
+;   3973    20.92    25.0
+;   3974   380.74    25.0
+;   4041   380.74    25.0
+;   4042   380.74    25.0
+;   4043   221.75    25.0 
+;   4044   380.74    25.0
+;   2350   380.74    25.0
+;   2351   221.75    25.0
+;   2352    20.92    25.0
+
+; The bonds from topology will be substituted with these bonds
+; Use only bonds of type 1 or 3.
+[bonds]
+;   i      j type        b(A)          k(A)     beta(A)        b(B)          k(B)     beta(B)
+ 2351   2352    3      0.0945       1028.33        15.0      0.0945          0.00        15.0 ; TYR OH-HH
+ 2352   4043    3      0.0945          0.00        15.0      0.0945       1028.33        15.0 ; HOV O3-HH
+ 3971   3972    3      0.1090        632.25        15.0      0.1090          0.00        15.0 ; NAH C3-H3
+ 3972   4042    3      0.1090          0.00        15.0      0.1090        632.25        15.0 ; HOV C3-H3
+
+; bonds of type 6 and 10 does not generate exclusions
+[bcon]
+; constraints 
+;    i     j    type      b0      k
+;    i     j    type  low(A) up1(A) up2(A)    k(A) low(B)  up1(B) up2(B)    k(B)
+  2351  4043      10    0.05   0.25   0.35  4184.0   0.05    0.25   0.35  4184.0
+  3971  4042      10    0.05   0.25   0.35  4184.0   0.05    0.25   0.35  4184.0
+
+; Angles will be defined as in topology.
+; Define both states if it is a forming or a braking angle
+[angles]
+
+; Torsions will be defined as in topology.
+; Define both states if it is a forming or a braking torsion
+[torsions]
+
+; Impropers will be defined as in topology.
+; Define both states if it is a forming or a braking improper
+[impropers]
+;  i      j      k      l   type(2)    phi(A)   k(A)         phi(B)        k(B)
+
+[soft-pairs]
+;    i     j type(9)     beta          k(A)    beta           k(B)
+  2351  2352       9     20.0          0.00    20.0        1046.00 ; TYR OH-HH; breaking
+  2352  4043       9     20.0       1046.00    20.0           0.00 ; HOV O3-HH; forming
+  3971  3972       9     20.0          0.00    20.0        1046.00 ; NAH C3-H3; breaking
+  3972  4042       9     20.0       1046.00    20.0           0.00 ; HOV C3-H3; forming
+
