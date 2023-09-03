@@ -8,7 +8,7 @@ in OPLS-AA format (`.opls` files). These last files, together with qmatoms.dat a
 topology created by GROMACS will serve as input for **gmx4evb.py** tool to generate the topologies
 (inside topologies/ folder) necessary for an EVB simulation with GROMACS.  
 
-qmatoms.dat files is structured as follows:  
+qmatoms.dat file is structured as follows:  
 
 >`[atoms]` directive contain the EVB atoms ('1' on the last column) as well as non-EVB atoms ('2' on the last column) involved in torsions, LJ14 and Coulomb-14 interactions with the EVB atoms. The columns are:  
 
