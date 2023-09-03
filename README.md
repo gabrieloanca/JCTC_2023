@@ -1,5 +1,5 @@
 This repository hosts auxiliary files to the Supporting Information of the following paper:  
->Gabriel Oanca, Florian van der Ent, Johan Åqvist, Efficient Empirical Valence Bond Simulations with GROMACS, Journal of Chemical Theory and Computation, 2023, doi: 10.1021/acs.jctc.3c00714  
+>Gabriel Oanca, Florian van der Ent, Johan Åqvist, Efficient Empirical Valence Bond Simulations with GROMACS, *Journal of Chemical Theory and Computation*, **2023**, doi: 10.1021/acs.jctc.3c00714  
 
 
 In each folder you will find several files. ffld_server parameters (`.ffld` files) and RESP
