@@ -34,6 +34,7 @@ NOTE: If you want to change any of the angles, torsions and impropers for EVB at
 `#pdb index for atom i, pdb index for atom j, 9, beta (RS), A (RS), beta (PS), A (PS)`  
 
 NOTE: Soft repulsion potentials are passed to GROMACS as tabulated bonds of type 9 (so the 3rd column is always '9').  
+
 NOTE: RS means Reactants State and PS means Products State (or states A and B as they are usually reffered to in GROMACS manual).  
 
 
