@@ -1,0 +1,129 @@
+WARNING mmlewis warning: Wrong Lewis structure in structure input file
+mmlewis warning: Problems were identified with the following atoms:
+mmlewis warning:  1 2 3 4 9 10 11 
+mmlewis warning: Now attempting to fix the lewis structure.
+WARNING mmlewis warning: A valid lewis structure was successfully generated.
+================================================================================
+  ATOMTYPES and PARAMETERS for molecule: 
+
+================================================================================
+
+ Total charge of the system = -3.0000
+Formal charge of the system = -3.0000
+
+
+Charges
+atom  formal fractional formal 
+1       0     0.000  
+2       0    -0.667  
+3      -1    -0.667  
+4      -1    -0.667  
+5       0     0.000  
+6       0     0.000  
+7       0     0.000  
+8       0     0.000  
+9       0     0.000  
+10     -1    -1.000  
+11      0     0.000  
+12      0     0.000  
+13      0     0.000  
+14      0     0.000  
+
+BCI's             index  type   type    bci        assignement info
+ P1      O2          0   445    441    -0.4533   exact type       P3-O2Z
+ P1      O3          0   445    441    -0.4533   exact type       P3-O2Z
+ P1      O4          0   445    441    -0.4533   exact type       P3-O2Z
+ P1      O5          0   445    452    -0.5600   exact type       P3-OS
+ O5      C6          0   452    135     0.2000   exact type       OS-CT
+ C6      H7          0   135    140     0.0600   exact type       CT-HC
+ C6      H8          0   135    140     0.0600   exact type       CT-HC
+ C6      C9          0   135    143     0.0000   empirical rule   CT-CMA
+ C9      O10         0   143    420     0.2261   exact type       CMA-OM
+ C9      C11         0   143    141    -0.6012   exact type       CMA-CM
+ C11     O12         0   141    168    -0.0488   exact type       CM-OH
+ C11     H14         0   141    146     0.1150   exact type       CM-HC
+ O12     H13         0   168    240     0.3552   exact type       OH-HO
+
+OPLSAA FORCE FIELD TYPE ASSIGNED
+-------------------------------------------------------------------------------
+ atom   type  vdw  symbol    charge   sigma    epsilon  quality   comment 
+-------------------------------------------------------------------------------
+ P1      445  P1   P3       1.9199   3.7400   0.2000 high   P   in  PO3--   
+ O2      441  O8   O2Z     -1.1200   2.9800   0.2000 high   O=   in OP    
+ O3      441  O8   O2Z     -1.1200   2.9800   0.2000 high   O-   in OP    
+ O4      441  O8   O2Z     -1.1200   2.9800   0.2000 high   O-   in OP    
+ O5      452  O16  OS      -0.7600   2.8500   0.1400 high   OR in PO3R-    
+ C6      135  C1   CT       0.0800   3.5000   0.0660 high   C: alkanes
+ H7      140  H1   HC       0.0600   2.5000   0.0300 high   H: alkanes
+ H8      140  H1   HC       0.0600   2.5000   0.0300 high   H: alkanes
+ C9      143  C3   CMA      0.3751   3.5500   0.0760 high   alpha C in C=CO(-)
+ O10     420  O9   OM      -0.7739   3.1500   0.2500 high   O  in  R[O-]
+ C11     141  C3   CM      -0.6674   3.5500   0.0760 high   alkene C (RH-C=) all atom
+ O12     168  O6   OH      -0.4040   3.0700   0.1700 high   O: enol  
+ H13     240  H8   HO       0.3552   0.5000   0.0300 high   H(O): alcohols
+ H14     146  H6   HC       0.1150   2.4200   0.0300 high   alkene H (H-C=)  all atom
+------------------------------------------------------------------------------
+
+
+ Stretch            k            r0    quality         bt        comment
+ P1      O2      525.00000    1.51600   high         0  => 0     P3-O2Z     ==> P3-O2Z    
+ P1      O3      525.00000    1.51600   high         0  => 0     P3-O2Z     ==> P3-O2Z    
+ P1      O4      525.00000    1.51600   high         0  => 0     P3-O2Z     ==> P3-O2Z    
+ P1      O5      230.00000    1.63000   high         0  => 0     P3-OS      ==> P3-OS     
+ O5      C6      320.00000    1.41000   high         0  => 0     OS-CT      ==> OS-CT     
+ C6      H7      340.00000    1.09000   high         0  => 0     CT-HC      ==> HC-CT     
+ C6      H8      340.00000    1.09000   high         0  => 0     CT-HC      ==> HC-CT     
+ C6      C9      270.00000    1.51200   high         0  => 0     CT-CMA     ==> CT-CMA    
+ C9      O10     745.00000    1.25000   high         0  => 0     CMA-OM     ==> OM-CMA    
+ C9      C11     465.00000    1.37600   high         0  => 0     CMA-CM     ==> CMA-CM    
+ C11     O12     510.00000    1.33800   high         0  => 0     CM-OH      ==> OH-CM     
+ C11     H14     340.00000    1.08000   high         0  => 0     CM-HC      ==> HC-CM     
+ O12     H13     553.00000    0.94500   high         0  => 0     OH-HO      ==> OH-HO     
+
+ Bending                      k       theta0    quality   at  comment
+ O2      P1      O3       140.00000  114.00000   high     0   O2Z-P3-O2Z        ==> O2Z-P3-O2Z       
+ O2      P1      O4       140.00000  114.00000   high     0   O2Z-P3-O2Z        ==> O2Z-P3-O2Z       
+ O2      P1      O5       100.00000  107.00000   high     0   O2Z-P3-OS         ==> OS-P3-O2Z        
+ O3      P1      O4       140.00000  114.00000   high     0   O2Z-P3-O2Z        ==> O2Z-P3-O2Z       
+ O3      P1      O5       100.00000  107.00000   high     0   O2Z-P3-OS         ==> OS-P3-O2Z        
+ O4      P1      O5       100.00000  107.00000   high     0   O2Z-P3-OS         ==> OS-P3-O2Z        
+ P1      O5      C6        80.00000  112.68000   high     0   P3-OS-CT          ==> P3-OS-CT         
+ O5      C6      H7        35.00000  109.50000   high     0   OS-CT-HC          ==> OS-CT-HC         
+ O5      C6      H8        35.00000  109.50000   high     0   OS-CT-HC          ==> OS-CT-HC         
+ O5      C6      C9        85.00000  110.90400   high     0   OS-CT-CMA         ==> CM-CT-OS         
+ H7      C6      H8        33.00000  107.80000   high     0   HC-CT-HC          ==> HC-CT-HC         
+ H7      C6      C9        45.00000  110.52000   high     0   HC-CT-CMA         ==> HC-CT-CMA        
+ H8      C6      C9        45.00000  110.52000   high     0   HC-CT-CMA         ==> HC-CT-CMA        
+ C6      C9      O10       85.00000  112.85300   high     0   CT-CMA-OM         ==> CT-CM-OS         
+ C6      C9      C11       65.00000  122.18000   high     0   CT-CMA-CM         ==> CT-CMA-CM        
+ O10     C9      C11       65.00000  137.10300   high     0   OM-CMA-CM         ==> OM-CMA-CM        
+ C9      C11     O12       80.00000  121.38400   high     0   CMA-CM-OH         ==> CM-CM-OH         
+ C9      C11     H14       40.00000  120.50800   high     0   CMA-CM-HC         ==> HC-CM-CMA        
+ O12     C11     H14       60.00000  109.77000   high     0   OH-CM-HC          ==> OH-CM-HC         
+ C11     O12     H13       70.00000  107.45700   high     0   CM-OH-HO          ==> HO-OH-CM         
+
+ proper Torsion                     V1      V2      V3      V4    quality  tt  comment
+ O2      P1      O5      C6        0.000   0.000   0.000   0.000    high   0   O2Z-P3-OS-CT         ==> O2Z-P2-OS-CT        
+ O3      P1      O5      C6        0.000   0.000   0.000   0.000    high   0   O2Z-P3-OS-CT         ==> O2Z-P2-OS-CT        
+ O4      P1      O5      C6        0.000   0.000   0.000   0.000    high   0   O2Z-P3-OS-CT         ==> O2Z-P2-OS-CT        
+ P1      O5      C6      H7        0.000   0.000   0.060   0.000    high   0   P3-OS-CT-HC          ==> P?-OS-CT-HC         
+ P1      O5      C6      H8        0.000   0.000   0.060   0.000    high   0   P3-OS-CT-HC          ==> P?-OS-CT-HC         
+ P1      O5      C6      C9        0.000   0.000   0.750   0.000    med    0   P3-OS-CT-CMA         ==> ??-OS-CT-??         
+ O5      C6      C9      O10       0.194   0.312  -1.016   0.000    med    0   OS-CT-CMA-OM         ==> ??-CT-CM-??         
+ O5      C6      C9      C11       0.780  -0.116  -1.103   0.000    high   0   OS-CT-CMA-CM         ==> OS-CT-CM-CM         
+ H7      C6      C9      O10       0.000   0.000   0.000   0.000    med    0   HC-CT-CMA-OM         ==> HC-CT-CM-??         
+ H7      C6      C9      C11       0.000   0.000   0.000   0.000    high   0   HC-CT-CMA-CM         ==> HC-CT-CM-CM         
+ H8      C6      C9      O10       0.000   0.000   0.000   0.000    med    0   HC-CT-CMA-OM         ==> HC-CT-CM-??         
+ H8      C6      C9      C11       0.000   0.000   0.000   0.000    high   0   HC-CT-CMA-CM         ==> HC-CT-CM-CM         
+ C6      C9      C11     O12       0.000  14.000   0.000   0.000    high   0   CT-CMA-CM-OH         ==> ??-CM-CM-??         
+ C6      C9      C11     H14       0.000  14.000   0.000   0.000    high   0   CT-CMA-CM-HC         ==> ??-CM-CM-??         
+ O10     C9      C11     O12       0.000  14.000   0.000   0.000    high   0   OM-CMA-CM-OH         ==> ??-CM-CM-??         
+ O10     C9      C11     H14       0.000  14.000   0.000   0.000    high   0   OM-CMA-CM-HC         ==> ??-CM-CM-??         
+ C9      C11     O12     H13      -1.322   2.417  -0.720   0.000    high   0   CMA-CM-OH-HO         ==> HO-OH-CM-CM         
+ H14     C11     O12     H13       0.000   2.394   0.000   0.000    high   0   HC-CM-OH-HO          ==> HO-OH-CM-HC         
+
+ improper Torsion                   V2    quality  comment
+ C6      O10     C9      C11      30.000   high   C=  double bonded
+ O12     H14     C11     C9       30.000   high   C=  double bonded
+
+

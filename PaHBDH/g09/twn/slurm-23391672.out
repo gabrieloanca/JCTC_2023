@@ -1,0 +1,22 @@
+
+===
+=== NSC g09 WRAPPER, version: 1.0
+===
+=== This invokation of Gaussian is made via an NSC wrapper script
+=== with the primary purpose of adjusting parallelization settings
+=== and to discover input errors. The bare Gaussian binary is available
+=== with the suffix '.orig'
+===
+Warning: gaussian input lindaworker threads per node (1 threads for 1 lindaworkers) 
+allocation is lower than the slurm allocation (32 in total).
+
+=== NSC g09 WRAPPER: Running Gaussian in input file mode (output should go to log file)
+
+=== POST-JOB OUTPUT FROM THE NSC g09 WRAPPER ===
+Gaussian calculation successful!
+==============================================
+
+
+real	0m15.493s
+user	0m13.607s
+sys	0m0.875s

@@ -2,11 +2,12 @@ This repository hosts auxiliary files to the Supporting Information of the follo
 >Gabriel Oanca, Florian van der Ent, Johan Åqvist, Efficient Empirical Valence Bond Simulations with GROMACS, *Journal of Chemical Theory and Computation*, **2023**, doi: 10.1021/acs.jctc.3c00714  
 
 
-In each folder you will find several files. ffld_server parameters (`.ffld` files) and RESP
-charges (`.ac` files) will serve as input to **ffld2gmx.py** tool which generates GROMACS parameters
-in OPLS-AA format (`.opls` files). These last files, together with qmatoms.dat and topol.top
+Inside the folder for each system, you will find the folder *g09/* containing the Gaussian09 jobs and the 
+folder *maketop/* in which we built the topologies. Inside *maketop/*, ffld_server parameters (`.ffld` files)
+and RESP charges (`.ac` files) will serve as input to **ffld2gmx.py** tool which generates GROMACS parameters
+in OPLS-AA format (`.opls` files). These .opls files, together with qmatoms.dat and topol.top
 topology created by GROMACS will serve as input for **gmx4evb.py** tool to generate the topologies
-(inside topologies/ folder) necessary for an EVB simulation with GROMACS.  
+(inside *topologies/* folder) necessary for an EVB simulation with GROMACS.  
 
 qmatoms.dat file is structured as follows:  
 

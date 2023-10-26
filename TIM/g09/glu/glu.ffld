@@ -1,0 +1,166 @@
+WARNING mmlewis warning: Wrong Lewis structure in structure input file
+mmlewis warning: Problems were identified with the following atoms:
+mmlewis warning:  14 15 
+mmlewis warning: Now attempting to fix the lewis structure.
+WARNING mmlewis warning: A valid lewis structure was successfully generated.
+================================================================================
+  ATOMTYPES and PARAMETERS for molecule: 
+
+================================================================================
+
+ Total charge of the system = -1.0000
+Formal charge of the system = -1.0000
+
+
+Charges
+atom  formal fractional formal 
+1       0     0.000  
+2       0     0.000  
+3       0     0.000  
+4       0     0.000  
+5       0     0.000  
+6       0     0.000  
+7       0     0.000  
+8       0     0.000  
+9       0     0.000  
+10      0     0.000  
+11      0     0.000  
+12     -1    -0.500  
+13      0    -0.500  
+14      0     0.000  
+15      0     0.000  
+16      0     0.000  
+17      0     0.000  
+
+BCI's             index  type   type    bci        assignement info
+ N1      H2          0   900    240     0.3600   exact type       NT-H
+ N1      C3          0   900    224     0.2239   exact type       NT-CT1
+ N1      H16         0   900    240     0.3600   exact type       NT-H
+ C3      H4          0   224    140     0.0600   exact type       CT1-HC
+ C3      C5          0   224    135    -0.0000   exact type       CT1-CTJ
+ C3      C14         0   224    277    -0.1136   exact type       CT1-CO4
+ C5      H6          0   135    140     0.0600   exact type       CTJ-HC
+ C5      H7          0   135    140     0.0600   exact type       CTJ-HC
+ C5      C8          0   135    135     0.0000   exact type       CTJ-CTI
+ C8      H9          0   135    140     0.0600   exact type       CTI-HC
+ C8      H10         0   135    140     0.0600   exact type       CTI-HC
+ C8      C11         0   135    271     0.1000   exact type       CTI-CO3
+ C11     O12         0   271    272    -0.3000   exact type       CO3-O2Z
+ C11     O13         0   271    272    -0.3000   exact type       CO3-O2Z
+ C14     O15         0   277    281    -0.4500   exact type       CO4-O
+ C14     H17         0   277    146     0.0000   exact type       CO4-HC
+
+OPLSAA FORCE FIELD TYPE ASSIGNED
+-------------------------------------------------------------------------------
+ atom   type  vdw  symbol    charge   sigma    epsilon  quality   comment 
+-------------------------------------------------------------------------------
+ N1      900  N4   NT      -0.9439   3.3000   0.1700 high   N primary   aliphatic amines 
+ H2      240  H8   H        0.3600   0.5000   0.0300 high   H on neutral N
+ C3      224  C1   CT1      0.2775   3.5000   0.0660 high   C alpha  
+ H4      140  H7   HC       0.0600   2.4200   0.0150 high   H on C-alpha in ketone & aldehyde 
+ C5      135  C1   CTJ     -0.1200   3.5000   0.0660 high   CB in GLU   
+ H6      140  H1   HC       0.0600   2.5000   0.0300 high   H: alkanes
+ H7      140  H1   HC       0.0600   2.5000   0.0300 high   H: alkanes
+ C8      135  C1   CTI     -0.2200   3.5000   0.0660 high   CG in GLU
+ H9      140  H1   HC       0.0600   2.5000   0.0300 high   H: alkanes
+ H10     140  H1   HC       0.0600   2.5000   0.0300 high   H: alkanes
+ C11     271  C2   CO3      0.7000   3.7500   0.1050 high   C in C(=O)[O-] carboxylate
+ O12     272  O2   O2Z     -0.8000   2.9600   0.2100 high   O: O in C(=O)[O-] carboxylate 
+ O13     272  O2   O2Z     -0.8000   2.9600   0.2100 high   O: O in C(=O)[O-] carboxylate 
+ C14     277  C2   CO4      0.3364   3.7500   0.1050 high   C: aldehyde - for C-alpha use 135
+ O15     281  O2   O       -0.4500   2.9600   0.2100 high   O: ketone, aldehyde, ester, acid
+ H16     240  H8   H        0.3600   0.5000   0.0300 high   H on neutral N
+ H17     146  H7   HC       0.0000   2.4200   0.0150 high   H-alpha in aldehyde & formamide & formic acid 
+------------------------------------------------------------------------------
+
+
+ Stretch            k            r0    quality         bt        comment
+ N1      H2      434.00000    1.01000   high         0  => 0     NT-H       ==> NT-H      
+ N1      C3      305.00000    1.45700   high         0  => 0     NT-CT1     ==> NT-CT1    
+ N1      H16     434.00000    1.01000   high         0  => 0     NT-H       ==> NT-H      
+ C3      H4      340.00000    1.09000   high         0  => 0     CT1-HC     ==> HC-CT1    
+ C3      C5      268.00000    1.52900   high         0  => 0     CT1-CTJ    ==> CTJ-CT1   
+ C3      C14     255.00000    1.52200   high         0  => 0     CT1-CO4    ==> CT1-CO4   
+ C5      H6      340.00000    1.09000   high         0  => 0     CTJ-HC     ==> HC-CTJ    
+ C5      H7      340.00000    1.09000   high         0  => 0     CTJ-HC     ==> HC-CTJ    
+ C5      C8      268.00000    1.52900   high         0  => 0     CTJ-CTI    ==> CTJ-CTI   
+ C8      H9      340.00000    1.09000   high         0  => 0     CTI-HC     ==> HC-CTI    
+ C8      H10     340.00000    1.09000   high         0  => 0     CTI-HC     ==> HC-CTI    
+ C8      C11     317.00000    1.52200   high         0  => 0     CTI-CO3    ==> CTI-CO3   
+ C11     O12     656.00000    1.25000   high         0  => 0     CO3-O2Z    ==> O2Z-CO3   
+ C11     O13     656.00000    1.25000   high         0  => 0     CO3-O2Z    ==> O2Z-CO3   
+ C14     O15     570.00000    1.22900   high         0  => 0     CO4-O      ==> O-CO4     
+ C14     H17     340.00000    1.09000   high         0  => 0     CO4-HC     ==> HC-CO4    
+
+ Bending                      k       theta0    quality   at  comment
+ H2      N1      C3        50.00000  111.55300   high     0   H-NT-CT1          ==> H-NT-CT1         
+ H2      N1      H16       43.60000  106.40000   high     0   H-NT-H            ==> H-NT-H           
+ C3      N1      H16       50.00000  111.55300   high     0   CT1-NT-H          ==> H-NT-CT1         
+ N1      C3      H4        50.00000  109.55000   high     0   NT-CT1-HC         ==> NT-CT1-HC        
+ N1      C3      C5        80.00000  111.22000   high     0   NT-CT1-CTJ        ==> CT-CT1-NT        
+ N1      C3      C14       75.00000  112.91400   high     0   NT-CT1-CO4        ==> NT-CT1-CO4       
+ H4      C3      C5        37.50000  110.70000   high     0   HC-CT1-CTJ        ==> HC-CT1-CTJ       
+ H4      C3      C14       45.00000  110.09800   high     0   HC-CT1-CO4        ==> HC-CT1-CO4       
+ C5      C3      C14       65.00000  117.82000   high     0   CTJ-CT1-CO4       ==> CTJ-CT1-CO4      
+ C3      C5      H6        37.50000  110.70000   high     0   CT1-CTJ-HC        ==> HC-CTJ-CT1       
+ C3      C5      H7        37.50000  110.70000   high     0   CT1-CTJ-HC        ==> HC-CTJ-CT1       
+ C3      C5      C8        58.35000  112.70000   high     0   CT1-CTJ-CTI       ==> CTI-CTJ-CT1      
+ H6      C5      H7        33.00000  107.80000   high     0   HC-CTJ-HC         ==> HC-CTJ-HC        
+ H6      C5      C8        37.50000  110.70000   high     0   HC-CTJ-CTI        ==> HC-CTJ-CTI       
+ H7      C5      C8        37.50000  110.70000   high     0   HC-CTJ-CTI        ==> HC-CTJ-CTI       
+ C5      C8      H9        37.50000  110.70000   high     0   CTJ-CTI-HC        ==> HC-CTI-CTJ       
+ C5      C8      H10       37.50000  110.70000   high     0   CTJ-CTI-HC        ==> HC-CTI-CTJ       
+ C5      C8      C11       63.00000  111.10000   high     0   CTJ-CTI-CO3       ==> CTJ-CTI-CO3      
+ H9      C8      H10       33.00000  107.80000   high     0   HC-CTI-HC         ==> HC-CTI-HC        
+ H9      C8      C11       35.00000  109.50000   high     0   HC-CTI-CO3        ==> HC-CTI-CO3       
+ H10     C8      C11       35.00000  109.50000   high     0   HC-CTI-CO3        ==> HC-CTI-CO3       
+ C8      C11     O12       70.00000  117.00000   high     0   CTI-CO3-O2Z       ==> O2Z-CO3-CTI      
+ C8      C11     O13       70.00000  117.00000   high     0   CTI-CO3-O2Z       ==> O2Z-CO3-CTI      
+ O12     C11     O13       80.00000  126.00000   high     0   O2Z-CO3-O2Z       ==> O2Z-CO3-O2Z      
+ C3      C14     O15       75.00000  123.42600   high     0   CT1-CO4-O         ==> O-CO4-CT1        
+ C3      C14     H17       40.00000  112.68000   high     0   CT1-CO4-HC        ==> HC-CO4-CT1       
+ O15     C14     H17       35.00000  123.00000   high     0   O-CO4-HC          ==> O-CO4-HC         
+
+ proper Torsion                     V1      V2      V3      V4    quality  tt  comment
+ H2      N1      C3      H4        0.000   0.000   0.400   0.000    high   0   H-NT-CT1-HC          ==> H-NT-CT-HC          
+ H2      N1      C3      C5       -0.119   0.177   0.235   0.000    high   0   H-NT-CT1-CTJ         ==> H-NT-CT-CT          
+ H2      N1      C3      C14       0.438  -0.498   0.304   0.000    high   0   H-NT-CT1-CO4         ==> H-NT-CT-C           
+ H16     N1      C3      H4        0.000   0.000   0.400   0.000    high   0   H-NT-CT1-HC          ==> H-NT-CT-HC          
+ H16     N1      C3      C5       -0.119   0.177   0.235   0.000    high   0   H-NT-CT1-CTJ         ==> H-NT-CT-CT          
+ H16     N1      C3      C14       0.438  -0.498   0.304   0.000    high   0   H-NT-CT1-CO4         ==> H-NT-CT-C           
+ N1      C3      C5      H6        0.000   0.000   0.300   0.000    high   0   NT-CT1-CTJ-HC        ==> HC-CT-CT-??         
+ N1      C3      C5      H7        0.000   0.000   0.300   0.000    high   0   NT-CT1-CTJ-HC        ==> HC-CT-CT-??         
+ N1      C3      C5      C8        3.068  -0.199   0.114   0.000    high   0   NT-CT1-CTJ-CTI       ==> NT-CT-CT-CT         
+ H4      C3      C5      H6        0.000   0.000   0.300   0.000    high   0   HC-CT1-CTJ-HC        ==> HC-CTJ-CT1-HC       
+ H4      C3      C5      H7        0.000   0.000   0.300   0.000    high   0   HC-CT1-CTJ-HC        ==> HC-CTJ-CT1-HC       
+ H4      C3      C5      C8        0.000   0.000   0.300   0.000    high   0   HC-CT1-CTJ-CTI       ==> CTI-CTJ-CT1-HC      
+ C14     C3      C5      H6        0.000   0.000  -0.076   0.000    high   0   CO4-CT1-CTJ-HC       ==> HC-CTJ-CT1-C        
+ C14     C3      C5      H7        0.000   0.000  -0.076   0.000    high   0   CO4-CT1-CTJ-HC       ==> HC-CTJ-CT1-C        
+ C14     C3      C5      C8       -1.527   3.406   0.000   0.000    high   0   CO4-CT1-CTJ-CTI      ==> CTI-CTJ-CT1-C       
+ N1      C3      C14     O15       0.000   0.603   0.000   0.000    high   0   NT-CT1-CO4-O         ==> ??-CT-C-O           
+ N1      C3      C14     H17       0.000   0.000   0.000   0.000    low    0   NT-CT1-CO4-HC        ==> ??-??-??-??         
+ H4      C3      C14     O15       0.000   0.000   0.000   0.000    high   0   HC-CT1-CO4-O         ==> HC-CT1-C-O          
+ H4      C3      C14     H17       0.000   0.000   0.000   0.000    high   0   HC-CT1-CO4-HC        ==> HC-CT-C-??          
+ C5      C3      C14     O15       0.000   0.000   0.000   0.000    high   0   CTJ-CT1-CO4-O        ==> CTJ-CT1-C-O         
+ C5      C3      C14     H17       1.491  -0.010   0.000   0.000    high   0   CTJ-CT1-CO4-HC       ==> CT-CT-C-HC          
+ C3      C5      C8      H9        0.000   0.000   0.300   0.000    high   0   CT1-CTJ-CTI-HC       ==> CT1-CTJ-CTI-HC      
+ C3      C5      C8      H10       0.000   0.000   0.300   0.000    high   0   CT1-CTJ-CTI-HC       ==> CT1-CTJ-CTI-HC      
+ C3      C5      C8      C11      -3.185  -0.825   0.493   0.000    high   0   CT1-CTJ-CTI-CO3      ==> CT1-CTJ-CTI-CO3     
+ H6      C5      C8      H9        0.000   0.000   0.300   0.000    high   0   HC-CTJ-CTI-HC        ==> HC-CTJ-CTI-HC       
+ H6      C5      C8      H10       0.000   0.000   0.300   0.000    high   0   HC-CTJ-CTI-HC        ==> HC-CTJ-CTI-HC       
+ H6      C5      C8      C11       0.000   0.000  -0.225   0.000    high   0   HC-CTJ-CTI-CO3       ==> HC-CTJ-CTI-CO3      
+ H7      C5      C8      H9        0.000   0.000   0.300   0.000    high   0   HC-CTJ-CTI-HC        ==> HC-CTJ-CTI-HC       
+ H7      C5      C8      H10       0.000   0.000   0.300   0.000    high   0   HC-CTJ-CTI-HC        ==> HC-CTJ-CTI-HC       
+ H7      C5      C8      C11       0.000   0.000  -0.225   0.000    high   0   HC-CTJ-CTI-CO3       ==> HC-CTJ-CTI-CO3      
+ C5      C8      C11     O12       0.000   0.546   0.000   0.000    high   0   CTJ-CTI-CO3-O2Z      ==> CTJ-CTI-CO3-O2Z     
+ C5      C8      C11     O13       0.000   0.546   0.000   0.000    high   0   CTJ-CTI-CO3-O2Z      ==> CTJ-CTI-CO3-O2Z     
+ H9      C8      C11     O12       0.000   0.000   0.000   0.000    high   0   HC-CTI-CO3-O2Z       ==> HC-CTI-CO3-O2Z      
+ H9      C8      C11     O13       0.000   0.000   0.000   0.000    high   0   HC-CTI-CO3-O2Z       ==> HC-CTI-CO3-O2Z      
+ H10     C8      C11     O12       0.000   0.000   0.000   0.000    high   0   HC-CTI-CO3-O2Z       ==> HC-CTI-CO3-O2Z      
+ H10     C8      C11     O13       0.000   0.000   0.000   0.000    high   0   HC-CTI-CO3-O2Z       ==> HC-CTI-CO3-O2Z      
+
+ improper Torsion                   V2    quality  comment
+ O12     C8      C11     O13      21.000   high   carboxylate 
+ C3      H17     C14     O15      21.000   high   carbonyl and analogs
+
+
